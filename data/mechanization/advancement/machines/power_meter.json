@@ -1,0 +1,36 @@
+{
+    "display": {
+      "title": {
+        "translate": "advancement.mechanization.power_meter.title",
+        "color":"green"
+      },
+      "description": {
+        "translate": "advancement.mechanization.power_meter.desc",
+        "color":"dark_aqua"
+      },
+      "icon": {
+        "id": "minecraft:carrot_on_a_stick",
+        "components": {
+          "minecraft:custom_model_data": 6422920
+        }
+      },
+      "frame": "task"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:carrot_on_a_stick",
+              "predicates": {
+                "minecraft:custom_data": {"mechanization":{"id":"power_meter"}}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "parent": "mechanization:base/wrench"
+  }
+  

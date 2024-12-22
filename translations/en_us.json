@@ -668,6 +668,8 @@
   "text.mechanization.manual.solar_panel.machine_upgrade":"+50%% Efficiency\n",
   "text.mechanization.manual.solar_panel.ender_upgrade":"+50%% Efficiency during peaks hours, +100%% Efficiency during off hours (morning/evening)\n",
   "text.mechanization.manual.solar_panel.nether_upgrade":"+200%% Efficiency, but only generates power during peak hours.\n",
+  "text.mechanization.manual.power_meter.title":"Power Meter",
+  "text.mechanization.manual.power_meter.body":"The Power Meter works like the MultiMeter but grabs an estimate of the power usage\n\n\n\n\n",
   "text.mechanization.manual.bio_generator.title":"Bio Generator",
   "text.mechanization.manual.bio_generator.body":"The Bio Generator converts organic matter into power. The more unique items are supplied, the higher to total power output (reacting carrots and potatos generates more power than either alone).\n\n\n",
   "text.mechanization.manual.bio_generator.machine_upgrade":"Can generate power from protien (meats).\n",

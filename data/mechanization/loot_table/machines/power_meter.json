@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:compass",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "mode": "replace_all",
+                "lore": [
+                  [{"translate": "lore.mechanization.power_meter", "color": "gray", "italic": false}],
+                  [{"text": "\uee11", "font": "mechanization:gui", "color": "white", "italic": false}, {"text": " "}, {"translate": "lore.mechanization.added_by", "color": "#c83219", "italic": false}]
+                ]
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{mechanization:{id:\"power_meter\"}}"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 6423001,
+                  "minecraft:item_name": "[{\"translate\": \"block.mechanization.power_meter\"}]",
+                  "minecraft:container": [
+                    {
+                      "slot": 0,
+                      "item": {
+                        "id": "minecraft:stone",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": "{smithed:{block:{id:\"mechanization:power_meter\"}}}"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
